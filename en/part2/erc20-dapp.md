@@ -13,7 +13,7 @@ It looks something like this:
 
 ![](./erc20-dapp/erc20-dapp.jpg)
 
-The only additional complication is that we no longer allow DApp to create a transaction without user permission. Now for every transaction, we should give the user an opportunity to approve or deny it:
+The only additional complication is that we no longer allow a DApp to create a transaction without the user's permission. Now for every transaction, we should give the user an opportunity to approve or deny it:
 
 ![](./erc20-dapp/auth-ui.jpg)
 
@@ -31,7 +31,7 @@ It is tedious and error-prone to keep the UI and data in sync.
 
 It'd be nice to bind the UI and data, so they always change together. `mobx` provides the tool to do that, and it is almost indistinguishable from magic.
 
-Let's first see how we manually update UI without reactive programming, then we'll see how mobx automates that process.
+Let's first see how we manually update the UI without reactive programming, then we'll see how mobx automates that process.
 
 ## Manual UI Update
 
