@@ -1,6 +1,6 @@
 # Test & Main Networks
 
-The `regtest` mode is convenient for local development, but it comes a time when you want to test your smart contracts and DApp on the real network.
+The `regtest` mode is convenient for local development, but there comes a time when you want to test your smart contracts and DApp on the real network.
 
 # Connecting To The Testnet
 
