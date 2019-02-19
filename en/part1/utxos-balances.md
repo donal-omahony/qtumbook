@@ -4,7 +4,7 @@ If you are a developer coming from Ethereum, the biggest practical difference is
 
 In Ethereum, you'd typically have an account with an unique address that holds a balance. You'd be sending/receiving money and interacting with Smart Contracts using one account.
 
-In QTUM, you don't really have accounts. Instead, you have a collection of UTXOs, each of which has its own address. An UTXO may be used only once when you send money or interact with a Smart Contract. If an UTXO has more value than you intend to use, it'd be splitted up into multiple UTXOs after a transaction.
+In QTUM, you don't really have accounts. Instead, you have a collection of UTXOs, each of which has its own address. An UTXO may be used only once when you send money or interact with a Smart Contract. If an UTXO has more value than you intend to use, it'd be split up into multiple UTXOs after a transaction.
 
 In this chapter we'll explore the UTXO model by sending some money using the `qcli` command, and peeking into the transaction data.
 
@@ -169,7 +169,7 @@ qcli listunspent 0 20
 ]
 ```
 
-Note that both of these UTXOs share the same txid. In other words, one send money transaction created two new UTXOs:
+Note that both of these UTXOs share the same txid. In other words, one 'send money' transaction created two new UTXOs:
 
 + `qdiqg2mp646KhSQjVud3whv6C34hNHQnL2`: Receiving address, holding value of 10.
 + `qddyh9oMU44qZ28bEY9WhCDbmCaALVDr1k`: The original sender UTXO had 20k qtum, the amount generated. This a new UTXO created to hold the change, minus fees.
