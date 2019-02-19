@@ -270,7 +270,7 @@ You may now call `balanceOf` and `totalSupply` to check if the owner had receive
 
 # Conclusion
 
-In this chapter we have deployed a basic ERC20 token, and encounter a few tools along the way:
+In this chapter we have deployed a basic ERC20 token, and encountered a few tools along the way:
 
 + `solar deploy` to compile & create a contract.
 + Use ABIPlayer to interact with deployed contracts: http://localhost:9899/abiplay/
